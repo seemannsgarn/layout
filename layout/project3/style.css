@@ -1,0 +1,118 @@
+* {box-sizing: border-box; padding: 0; margin: 0;}
+.container1 {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(#fff,#b0e8e2);
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows:1fr 2fr 1fr ;
+    padding: 1%;
+}
+.logo {
+    justify-self:center;
+} 
+.navbar ul{
+    padding: 5px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    font-size: 1.2em;
+    padding: 0 100px;
+}
+.login {
+    justify-self: center; 
+}
+.login input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 60px;
+    border: 1px solid #00B6F0;
+    border-radius: 85px;
+    background: white;
+    color:#00B6F0;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.login input:hover{
+    background: #00B6F0;
+    color:white;
+}
+.navbar ul li{
+    justify-self: center;
+}
+.linkNavbar {
+    text-decoration: none;
+    color: #20262A;
+}
+.linkNavbar:link,.linkNavbar:hover {
+    color: red;
+}
+.textWrapper {
+    display: grid;
+    margin-top: 3%;
+}
+.textWrapper h2 {
+    justify-self: center;
+    color: #112d57;
+    font-size: 3em;
+    text-align: center;
+}
+.textWrapper p {
+    justify-self: center;
+    color: #5c5c5c;
+    font-size: 1.5em;
+    text-align: center;
+}
+.buttonWrapper1 {
+    display: flex;
+    justify-content: center;
+    
+}
+button:nth-child(1),button:nth-child(2){
+    border-style: none;
+    background: #fff;
+    border-radius: 85px;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 20px 60px;
+    margin-top: 30px;
+    margin-right:20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+button:nth-child(1):hover, button:nth-child(2):hover {
+    background: #00B6F0;
+    color: #fff;
+}
+.circlesBlock{
+    display: grid;
+    
+}
+.circle1 {
+    position: absolute;
+    border-radius: 100%;
+    background: #00B6F0;
+    top: 30%;
+    left: -40%; 
+    width: 50%;
+    height: 70%;
+}
+.circle2 {
+    position: absolute;
+    border-radius: 100%;
+    background: #e8c303;
+    top: 40%;
+    left: 90%; 
+    width: 50%;
+    height: 70%;
+   
+}
+.flatBrowser {
+   justify-self: center;
+   position: relative;
+    
+}
