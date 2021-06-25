@@ -1,0 +1,50 @@
+
+    #container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content:flex-end;
+        /*width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        box-shadow: 15px 15px 0 0 red;*/
+      }
+      .layer1{
+        width: 20%;
+        height: 20vh;
+        background: gray;
+        position: fixed;
+        bottom:50%;
+        left: 50%;
+        z-index: 1;
+       
+      }
+      
+      /*.layer2{
+        width: 150vh;
+        height: 150vh;
+        background: #FFEEDE;
+        border-radius: 50%;
+        position: fixed;
+        bottom:30%;
+        left: 30%;
+        z-index: 3;
+      }*/
+      .layer2 {
+        width: 20%;
+        height: 20vh;
+        background: red;
+        position: fixed;
+        bottom:45%;
+        left: 45%;
+         z-index: 2; 
+      }
+      .layer3 {
+        width: 20%;
+        height: 20vh;
+        background: blue;
+        position: fixed;
+        bottom:55%;
+        left: 55%;
+          z-index: 3;
+      }
