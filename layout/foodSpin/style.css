@@ -1,0 +1,45 @@
+
+body{
+  margin:0;
+  padding:0;
+}
+#container{
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: 100vh;
+  background: #FFEEDE;
+  display: flex;
+}
+.backgroundLayer1{
+  width: 30%;
+  height: 100vh;
+  background:#fff;
+  z-index:3;
+}
+.backgroundLayer2{
+ width: 70%;
+ height: 100vh;
+ position: relative;
+ overflow:hidden;
+ z-index:3;
+}
+.backgroundLayer2:before{
+  content:"";
+  width:110%;
+  height:130vh;
+  position:absolute;
+  top:-70%;
+  left:10%;
+  border-radius:100%;
+  box-shadow: 0px 0px 0px 100vh #fff;
+}
+.elem1{
+  position: absolute;
+  top:40%;
+  left:60%;
+  z-index: 2;
+}
+.elem1 img{
+  width: 30%;
+}
